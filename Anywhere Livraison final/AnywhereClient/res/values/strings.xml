@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anywhere</string>
+    <string name="title_activity_main">Anywhere</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textView1">Welcome to Anywhere</string>
+    <string name="radio_group1">Departure</string>
+    <string name="radio_group2">Destination</string>
+    <string name="radio_button1">Skip the step of taking photos</string>
+    <string name="radio_button2">By Taking Photos</string>
+    <string name="radio_button3">Skip the step of uploading photos</string>
+    <string name="radio_button4">By Uploading Photos</string>
+    <string name="next">Next</string>
+    <string name="quit">Quit</string>
+    <string name="title_activity_depart_text">DepartTextActivity</string>
+    <string name="title_activity_dest">DestActivity</string>
+    <string name="title_activity_dest_text">DestTextActivity</string>
+    <string name="title_activity_res">ResActivity</string>
+    <string name="title_activity_depart_photo">DepartPhotoActivity</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="title_activity_dest_photo">DestPhotoActivity</string>
+    <string name="confirm">Confirm</string>
+    <string name="no_sd_card_info">YOU DON\'T HAVE A SD CARD!</string>
+    <string name="error1">Please Choose a right photo!</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_java_ws">JavaWSActivity</string>
+    <string name="departure">Departure</string>
+    <string name="destination">Destination</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="search">Search</string>
+    <string name="navigation">GO</string>
+    <string name="get_photo">Get Photo</string>
+    <string name="option">Option</string>
+    <string name="shortest">Shortest</string>
+    <string name="fastest">Fastest</string>
+    <string name="pedestrian">Pedestrian</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="multimodal">Multimodal</string>
+    <string name="search_hint">Find a Place</string>
+    <string name="city">City</string>
+    <string name="Nice">Nice</string>
+    <string name="Sophia">Sophia</string>
+    <string name="PNS">PolytechNiceSophia</string>
+    <string name="dep_reset">Reset the Departure</string>
+    <string name="des_reset">Reset the Destination</string>
+    <string name="title_activity_reset_dep">ResetDepActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_upload2">Upload2Activity</string>
+    <string name="choose_city">Choose the city</string>
+    <string name="title_activity_start">Anywhere</string>
+    <string name="welcome">Welcome to Anywhere!</string>
+    <string name="camera">Camera</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longtitude</string>
+    <string name="address">Address</string>
+    <string name="need_lat_lon">Please input the latitude and the longtitude</string>
+    <string name="need_lat">Please input the latitude</string>
+    <string name="need_lon">Please input the longtitude</string>
+    <string name="invalid_lat_lon">Please input the latitude and the longtitude</string>
+    <string name="invalid_lat">Please input the latitude</string>
+    <string name="invalid_lon">Please input the longtitude</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="indoor">Indoor user of Polytech Nice Sophia</string>
+    <string name="outdoor">Outdoor user</string>
+    <string name="none_choose">Please choose one!</string>
+    <string name="title_activity_indoor_map">IndoorMapActivity</string>
+    <string name="map">map</string>
+    <string name="title_activity_indoor">IndoorActivity</string>
+    <string name="welcome_polytech">Welcome to PolyTech Nice Sophia!</string>
+    <string name="notice_floor">Choose the floor and the building</string>
+    <string name="click_to_show">Click To Show</string>
+    <string name="t1">PolyTech Nice Sophia Indoor</string>
+    <string name="t2">Disneyland Paris</string>
+    <string name="t3">Lafayette</string>
+
+    <string-array name="floor_array">
+        <item>O1</item>
+    </string-array>
+
+</resources>

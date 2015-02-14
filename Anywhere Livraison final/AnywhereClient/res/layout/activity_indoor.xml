@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_polytech"
+        android:textColor="#ff7f00"
+        android:textSize="26sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="30sp"
+        android:digits="0123456789.-"
+        android:hint="@string/latitude" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et1"
+        android:digits="0123456789.-"
+        android:hint="@string/longitude" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/album" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/next"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/upload"
+        android:scaleType="centerInside" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/camera"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et2"
+        android:prompt="@string/notice_floor" />
+
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner1"
+        android:text="@string/quit"
+        android:textSize="20sp" />
+
+</RelativeLayout>
